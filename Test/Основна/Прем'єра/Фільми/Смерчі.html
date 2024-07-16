@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Смерчі</title>
+    <link rel="stylesheet" href="./style_Смерчі.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Смерчі</h1>
+    </div>
+    <div class="container">
+        <div class="movie-poster">
+            <img src="./Фото/Смерчі.jfif" alt="Смерчі">
+            <button class="book-ticket"><a href="./Сеанси/shedule.html" style="text-decoration: none; color: white;">Забронювати квиток</a></button>
+        </div>
+        <div class="movie-details">
+            <p><strong>Вік:</strong> 12+</p>
+            <p><strong>Оригінальна назва:</strong> Twisters</p>
+            <p><strong>Режисер:</strong> Лі Айзек Чанґ</p>
+            <p><strong>Прем'єра:</strong> 18 липня 2024</p>
+            <p><strong>Рейтинг глядачів:</strong> 7.1</p>
+            <p><strong>Мова:</strong> українська мова</p>
+            <p><strong>Жанр:</strong> Трилер, Екшн</p>
+            <p><strong>Тривалість:</strong> 1:58</p>
+            <p><strong>Виробництво:</strong> США</p>
+            <p><strong>Студія:</strong> Universal Pictures, Warner Bros. Pictures, Amblin Entertainment</p>
+            <p><strong>У головних ролях:</strong> Дейзі Едґар-Джонс, Ґлен Павелл, Ентоні Рамос, Брендон Переа, Саша Лейн, Деріл Мак-Кормак, Кірнан Шіпка, Нік Додані, Мора Тінрі.</p>
+            <p>Продюсери стрічок «Парк Юрського періоду», «Джейсон Борн» та «Індіана Джонс» випускають фільм «Смерчі» – сучасну версію блокбастера 1996 року «Смерч».
+                Кейт Купер (Дейзі Едґар-Джонс) – колишня мисливиця за смерчами. Її переслідують спогади з минулого про катастрофічну зустріч з торнадо під час навчання в коледжі. Зараз Кейт живе у Нью-Йорку в цілковитій безпеці і вивчає моделі торнадо лише на моніторах компʼютерів. Якось її друг Хаві (Ентоні Рамос) заманює дівчину назад на відкриті рівнини, щоб випробувати нову революційну систему стеження за торнадо. Там Кейт знайомиться з Тайлером Овенсом (Ґвен Павелл), чарівною і безрозсудною суперзіркою соціальних мереж. Разом зі своєю невгамовною командою Тайлер показує підписникам пригоди мисливців за смерчами. І що небезпечніші погоні, то краще.
+                Коли сезон смерчів посилюється, зʼявляються жахливі явища, небачені раніше. Опинившись на шляху кількох штормових систем, що насуваються на центральну Оклахому, Кейт, Тайлер та їхні команди змушені боротися за власні життя.</p>
+            <button class="watch-trailer" onclick="showTrailer()">Дивитись трейлер</button>
+            <div class="trailer" id="trailer">
+                <video controls>
+                    <source src="./Відео/СМЕРЧІ - Офіційний український трейлер.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+    <footer class="footer-1">
+        <p>© 2024 Смерчі. Всі права захищено.</p>
+    </footer>
+    <script>
+        function showTrailer() {
+            document.getElementById('trailer').style.display = 'block';
+        }
+    </script>
+</body>
+</html>

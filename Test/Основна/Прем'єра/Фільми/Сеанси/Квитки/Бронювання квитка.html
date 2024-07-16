@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бронювання квитка</title>
+    <link rel="stylesheet" href="./style_Бронь.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Бронювання квитка</h1>
+        <form id="ticketForm">
+            <div class="form-group">
+                <label for="fullName">Прізвище, Ім'я, По-батькові:</label>
+                <input type="text" id="fullName" name="fullName" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Електронна пошта:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="cardNumber">Номер картки:</label>
+                <input type="text" id="cardNumber" name="cardNumber" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Пароль:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" name="cvv" required>
+            </div>
+
+            <a href="./ПісляБронювання.html" class="button-link">Замовити квиток</a>
+        </form>
+    </div>
+    <script src="./квитки.js"></script>
+</body>
+</html>

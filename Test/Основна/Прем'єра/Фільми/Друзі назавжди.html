@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Друзі назавжди</title>
+    <link rel="stylesheet" href="./style_friends.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Друзі назавжди</h1>
+    </div>
+    <div class="container">
+        <div class="movie-poster">
+            <img src="./Фото/Друзі назавжди.jfif" alt="Друзі назавжди">
+            <button class="book-ticket"><a href="./Сеанси/shedule.html" style="text-decoration: none; color: white;">Забронювати квиток</a></button>
+        </div>
+        <div class="movie-details">
+            <p><strong>Вік:</strong> 16+</p>
+            <p><strong>Оригінальна назва:</strong> The Best is Yet to Come</p>
+            <p><strong>Режисер:</strong> Тіль Швайґер</p>
+            <p><strong>Прем'єра:</strong> 5 липня 2024</p>
+            <p><strong>Рейтинг глядачів:</strong> 7.3</p>
+            <p><strong>Мова:</strong> українська мова</p>
+            <p><strong>Жанр:</strong> Комедія</p>
+            <p><strong>Тривалість:</strong> 1:51</p>
+            <p><strong>Виробництво:</strong> Німеччина</p>
+            <p><strong>Студія:</strong> Black Bear Pictures, STX International</p>
+            <p><strong>У головних ролях:</strong> Тіль Швайґер, Міхаель Мертенс, Неда Рахманіан, Емма Швайгер, Каро Култ</p>
+            <p>Незважаючи на те, що вони абсолютно різні, Артур і Фелікс завжди були найкращими друзями. 
+            Один - спокійний і сором'язливий, другий - хуліган, який обожнює вечірки та живе на повну. 
+            Одного дня Артур випадково дізнається, що його друг смертельно хворий. 
+            Оскільки він не має духу сказати Феліксу правду, через плутанину, Фелікс думає, що то його найкращий друг помирає!
+             І він починає доглядати за Артуром, намагаючись виконати всі його бажання, а разом з тим і свої: вкрасти мерседес, погладити верблюда, піти на побачення та вирушити у подорож!</p>
+            <button class="watch-trailer" onclick="showTrailer()">Дивитись трейлер</button>
+            <div class="trailer" id="trailer">
+                <video controls>
+                    <source src="./Відео/_Комедія 'ДРУЗІ НАЗАВЖДИ' Офіційний трейлер. У КІНОТЕАТРАХ з 18 ЛИПНЯ 2024.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+    <footer class="footer-1">
+        <p>© 2024 Друзі назавжди. Всі права захищено.</p>
+    </footer>
+    <script>
+        function showTrailer() {
+            document.getElementById('trailer').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
