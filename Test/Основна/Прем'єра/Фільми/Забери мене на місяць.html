@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Забери мене на місяць</title>
+    <link rel="stylesheet" href="./style_moon.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Забери мене на місяць</h1>
+    </div>
+    <div class="container">
+        <div class="movie-poster">
+            <img src="./Фото/Забери мене на місяць.jpg" alt="Забери мене на місяць">
+            <button class="book-ticket"><a href="./Сеанси/shedule.html" style="text-decoration: none; color: white;">Забронювати квиток</a></button>
+        </div>
+        <div class="movie-details">
+            <p><strong>Вік:</strong> 16+</p>
+            <p><strong>Оригінальна назва:</strong> Fly Me to the Moon</p>
+            <p><strong>Режисер:</strong> Ґреґ Берланті</p>
+            <p><strong>Прем'єра:</strong> 10 липня 2024</p>
+            <p><strong>Рейтинг глядачів:</strong> 6.8</p>
+            <p><strong>Мова:</strong> українська мова</p>
+            <p><strong>Жанр:</strong> Комедія, Спорт</p>
+            <p><strong>Тривалість:</strong> 2:12</p>
+            <p><strong>Виробництво:</strong> США</p>
+            <p><strong>Студія:</strong> Sony PIctures</p>
+            <p><strong>У головних ролях:</strong> Скарлетт Йоганссон, Ченнінґ Татум</p>
+            <p>Скарлетт Йоганссон і Ченнінґ Татум у гостросюжетній комедії, події якої розгортаються на тлі історичної посадки космічного корабля «Апполон-11» на Місяць.
+                 Коли імідж NASA майже зазнав краху, талановита маркетологиня Келлі Джонс розпочинає безпрецедентну промо-кампанію, щоб виправити ситуацію. 
+                 Цим вона неабияк ускладнює роботу над висадкою усій команді NASA. Проте коли Білий Дім вирішує, що місія є надто важливою аби її провалити, Келлі доручають зняти фальшиве приземлення як запасний варіант. Безкомпромісна боротьба за першість розпочинається.</p>
+            <button class="watch-trailer" onclick="showTrailer()">Дивитись трейлер</button>
+            <div class="trailer" id="trailer">
+                <video controls>
+                    <source src="./Відео/_Забери мене на Місяць. Офіційний трейлер.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+    <footer class="footer-1">
+        <p>© 2024 Забери мене на місяць. Всі права захищено.</p>
+    </footer>
+    <script>
+        function showTrailer() {
+            document.getElementById('trailer').style.display = 'block';
+        }
+    </script>
+</body>
+</html>

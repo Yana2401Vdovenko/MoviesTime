@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кріпачка</title>
+    <link rel="stylesheet" href="./style_neif.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Кріпачка</h1>
+    </div>
+    <div class="container">
+        <div class="movie-poster">
+            <img src="./Фото/Кріпачка.jfif" alt="Кріпачка">
+            <button class="book-ticket"><a href="./Сеанси/shedule.html" style="text-decoration: none; color: white;">Забронювати квиток</a></button>
+        </div>
+        <div class="movie-details">
+            <p><strong>Вік:</strong> 16+</p>
+            <p><strong>Оригінальна назва:</strong> Chlopi</p>
+            <p><strong>Режисер:</strong> Г'ю Велчман, Дорота Кобела</p>
+            <p><strong>Прем'єра:</strong> 20 червня 2024</p>
+            <p><strong>Рейтинг глядачів:</strong> 7.7</p>
+            <p><strong>Мова:</strong> українська мова</p>
+            <p><strong>Жанр:</strong> Анімація, Драма</p>
+            <p><strong>Тривалість:</strong> 2:00</p>
+            <p><strong>Виробництво:</strong> Польща, Сербія, Литва, Україна</p>
+            <p><strong>Студія:</strong> BreakThru Productions, Polski Instytut Sztuki Filmowej</p>
+            <p><strong>У головних ролях:</strong> Каміла Уржедовська, Ева Каспшик, Соня Богосевіч, Лех Диблік</p>
+            <p>Історія Ягни — молодої жінки в польському селі наприкінці 19-го століття. У цьому осередку пліток й постійної ворожнечі багатих і бідних тримає разом лише гордість за свою землю, відданість колоритним традиціям і глибоко вкорінений патріархат. Вирішивши обрати власний життєвий шлях, жінка опиняється між суперечливими бажаннями найбагатшого фермера села, його старшого сина та можновладних чоловіків. Спротив Янги приводить її на шлях трагічного зіткнення з сільською громадою.</p>
+            <button class="watch-trailer" onclick="showTrailer()">Дивитись трейлер</button>
+            <div class="trailer" id="trailer">
+                <video controls>
+                    <source src="./Відео/Кріпачка - Офіційний трейлер - з 11 липня в кіно.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+    <footer class="footer-1">
+        <p>© 2024 Кріпачка. Всі права захищено.</p>
+    </footer>
+    <script>
+        function showTrailer() {
+            document.getElementById('trailer').style.display = 'block';
+        }
+    </script>
+</body>
+</html>

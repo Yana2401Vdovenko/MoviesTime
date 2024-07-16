@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('./Фото/про\ нас.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    text-align: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-bottom: 2px dashed #fff;
+}
+
+header h1 {
+    color: white;
+    font-family: 'Metal Mania';
+    src: url('./Фото/MetalMania-Regular.ttf') format('ttf');
+    font-size: 1.8em;
+    font-weight: bold;
+    margin: 0;
+}
+
+main {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.about-us, .our-mission, .contact-info {
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px dashed #ccc;
+}
+
+.about-us h2 {
+    color: #fff;
+}
+
+.contact-info ul {
+    color: rgb(255, 255, 255);
+    list-style-type: none;
+    padding: 0;
+
+}
+
+.contact-info ul li {
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+
+}
+
+.footer-1 {
+    color: #fff;
+    font-family: 'Metal Mania';
+    src: url('./Фото/MetalMania-Regular.ttf') format('ttf');
+    background-color: rgba(0, 0, 0, 0.5);
+    border-top: 2px dashed #fff;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer-1 a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-1 a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-1 a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-1 button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30%; /* Закруглення кутів кнопки */
+}
+
+.footer-1 button:hover {
+    background-color: #0056b3;
+}
