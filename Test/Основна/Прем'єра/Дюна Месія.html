@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дюна: Месія</title>
+    <link rel="stylesheet" href="./style_Дюна.css"> <!-- Підключіть свій CSS файл -->
+</head>
+<body>
+    <div class="header">
+        <h1>Дюна: Месія</h1>
+    </div>
+    <div class="container">
+        <div class="movie-poster">
+            <img src="./Фото/Дюна Месія.jpg" alt="Дюна: Месія">
+        </div>
+        <div class="movie-details">
+            <p><strong>Вік:</strong> 16+</p>
+            <p><strong>Оригінальна назва:</strong> Dune: Messiah</p>
+            <p><strong>Режисер:</strong> Дені Вільньов</p>
+            <p><strong>Прем'єра:</strong> 20 грудня 2023 (США)</p>
+            <p><strong>Рейтинг глядачів:</strong> 8.1</p>
+            <p><strong>Мова:</strong> англійська</p>
+            <p><strong>Жанр:</strong> Фантастика, Пригоди</p>
+            <p><strong>Тривалість:</strong> 2:35</p>
+            <p><strong>Виробництво:</strong> США, Канада, Угорщина</p>
+            <p><strong>Студія:</strong> Legendary Pictures, Warner Bros. Pictures</p>
+            <p><strong>У головних ролях:</strong> Тімоті Шаламе, Ребекка Фергюсон, Оскар Айзек, Джош Бролін, Дейв Батіста</p>
+            <p>Кіно "Дюна: Месія" є продовженням епічної саги про боротьбу за владу над пісками планети Арракіс. 
+            У цьому фільмі герої змушені зіткнутися з новими випробуваннями і викликами, щоб зберегти свій народ і світ в цілому.</p>
+            <button class="watch-trailer" onclick="showTrailer()">Дивитись трейлер</button>
+            <div class="trailer" id="trailer">
+                <video controls>
+                    <source src="./Відео/ДЮНА. ЧАСТИНА ДРУГА - Офіційний український трейлер №3.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+    <footer class="footer-1">
+        <p>© 2024 Дюна: Месія. Всі права захищено.</p>
+    </footer>
+    <script>
+        function showTrailer() {
+            document.getElementById('trailer').style.display = 'block';
+        }
+    </script>
+</body>
+</html>

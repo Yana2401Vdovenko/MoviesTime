@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дедпул і Росомаха</title>
+    <link rel="stylesheet" href="./style_Дедпул і Росомаха.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Дедпул і Росомаха</h1>
+    </div>
+    <div class="container">
+        <div class="movie-poster">
+            <img src="./Фото/Дедпул і Росомаха.jpg" alt="Дедпул і Росомаха">
+            <button class="book-ticket"><a href="./Сеанси/shedule.html" style="text-decoration: none; color: white;">Забронювати квиток</a></button>
+        </div>
+        <div class="movie-details">
+            <p><strong>Вік:</strong> 18+</p>
+            <p><strong>Оригінальна назва:</strong> Deadpool & Wolverine</p>
+            <p><strong>Режисер:</strong> Шон Леві</p>
+            <p><strong>Прем'єра:</strong> 24 липня 2024</p>
+            <p><strong>Рейтинг глядачів:</strong> 7</p>
+            <p><strong>Мова:</strong> українська мова</p>
+            <p><strong>Жанр:</strong> Екшн, Комедія</p>
+            <p><strong>Тривалість:</strong> 2:06</p>
+            <p><strong>Виробництво:</strong> США</p>
+            <p><strong>Студія:</strong> Marvel Studios</p>
+            <p><strong>У головних ролях:</strong> Райан Рейнольдс, Шон Леві, Ретт Різ, Пол Вернік, Венді Моліно, Ліззі Моліно, Зеб Веллс</p>
+            <p>Безіменний фільм про Дедпула, також відомий як "Дедпул 3", - майбутній американський супергеройський фільм, заснований на однойменному персонажі коміксів Marvel</p>
+            <button class="watch-trailer" onclick="showTrailer()">Дивитись трейлер</button>
+            <div class="trailer" id="trailer">
+                <video controls>
+                    <source src="./Відео/_ДЕДПУЛ І РОСОМАХА - Офіційний український трейлер.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+    <footer class="footer-1">
+        <p>© 2024 Дедпул і Росомаха. Всі права захищено.</p>
+    </footer>
+    <script>
+        function showTrailer() {
+            document.getElementById('trailer').style.display = 'block';
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гладіатор 2</title>
+    <link rel="stylesheet" href="./style_Гладіатор 2.css"> <!-- Підключіть свій CSS файл -->
+</head>
+<body>
+    <div class="header">
+        <h1>Гладіатор 2</h1>
+    </div>
+    <div class="container">
+        <div class="movie-poster">
+            <img src="./Фото/Гладіатор 2.webp" alt="Гладіатор 2">
+        </div>
+        <div class="movie-details">
+            <p><strong>Вік:</strong> 16+</p>
+            <p><strong>Оригінальна назва:</strong> Gladiator 2</p>
+            <p><strong>Режисер:</strong> Пітер Крісі</p>
+            <p><strong>Прем'єра:</strong> TBD</p>
+            <p><strong>Рейтинг глядачів:</strong> TBD</p>
+            <p><strong>Мова:</strong> англійська</p>
+            <p><strong>Жанр:</strong> Екшн, Драма</p>
+            <p><strong>Тривалість:</strong> TBD</p>
+            <p><strong>Виробництво:</strong> TBD</p>
+            <p><strong>Студія:</strong> TBD</p>
+            <p><strong>У головних ролях:</strong> TBD</p>
+            <p>В "Гладіатор 2" ми повертаємось до світу Римської імперії, де новий гладіатор стає символом справедливості та відваги в боротьбі з корупцією і тираниєю.</p>
+            <button class="watch-trailer" onclick="showTrailer()">Дивитись трейлер</button>
+            <div class="trailer" id="trailer">
+                <video controls>
+                    <source src="./Відео/_Гладіатор ІІ. Офіційний трейлер.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+    <footer class="footer-1">
+        <p>© 2024 Гладіатор 2. Всі права захищено.</p>
+    </footer>
+    <script>
+        function showTrailer() {
+            document.getElementById('trailer').style.display = 'block';
+        }
+    </script>
+</body>
+</html>

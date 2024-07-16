@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гарфілд у кіно</title>
+    <link rel="stylesheet" href="./style_cat.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Гарфілд у кіно</h1>
+    </div>
+    <div class="container">
+        <div class="movie-poster">
+            <img src="./Фото/Ґарфілд у кіно.jfif" alt="Гарфілд у кіно">
+            <button class="book-ticket"><a href="./Сеанси/shedule.html" style="text-decoration: none; color: white;">Забронювати квиток</a></button>
+        </div>
+        <div class="movie-details">
+            <p><strong>Вік:</strong> 0+</p>
+            <p><strong>Оригінальна назва:</strong> Garfield</p>
+            <p><strong>Режисер:</strong> Марк Діндал</p>
+            <p><strong>Прем'єра:</strong> 23 травня 2024</p>
+            <p><strong>Рейтинг глядачів:</strong> 5</p>
+            <p><strong>Мова:</strong> українська мова</p>
+            <p><strong>Жанр:</strong> Пригоди , Анімація</p>
+            <p><strong>Тривалість:</strong> 1:41</p>
+            <p><strong>Виробництво:</strong> США</p>
+            <p><strong>Студія:</strong> Sony</p>
+            <p><strong>У головних ролях:</strong> Кріс Пратт, Семюел Л. Джексон, Ханна Уеддінгхем, Вінг Реймс, Ніколас Холт, Сесілі Стронг, Харві Гільєн, Бретт Голдстін</p>
+            <p>Улюбленець мільйонів – рудий кіт Гарфілд повертається на великі екрани! Він ненавидить понеділки, обожнює лазання і щодня проводить біля телевізора. Однак цього разу на нього чекає несподівана пригода за межами будинку. Після випадкової зустрічі зі своїм давно втраченим батьком — замурзаним вуличним котом — Гарфілд і його друг Оді змушені залишити безтурботне життя і вирушити в шалену подорож.</p>
+            <button class="watch-trailer" onclick="showTrailer()">Дивитись трейлер</button>
+            <div class="trailer" id="trailer">
+                <video controls>
+                    <source src="./Відео/_Ґарфілд у кіно. Офіційний трейлер.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+    <footer class="footer-1">
+        <p>© 2024 Гарфілд у кіно. Всі права захищено.</p>
+    </footer>
+    <script>
+        function showTrailer() {
+            document.getElementById('trailer').style.display = 'block';
+        }
+    </script>
+</body>
+</html>

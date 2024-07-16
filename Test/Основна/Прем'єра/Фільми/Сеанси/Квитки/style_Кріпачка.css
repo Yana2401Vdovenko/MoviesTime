@@ -1,0 +1,173 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('./Фото/фон_7.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    line-height: 1;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    text-align: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-bottom: 2px dashed #fff;
+}
+
+header h1 {
+    font-family: 'Metal Mania';
+    font-size: 1.8em;
+    font-weight: bold;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    flex: 1;
+}
+
+.movie {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+.movie img {
+    width: 250px;
+    height: auto;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+
+.movie-info {
+    font-family: 'Metal Mania';
+    display: flex;
+    flex-direction: column;
+    margin-top: -10px;
+    color: black;
+    font-weight: bold;
+}
+
+.prices {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.seating-chart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.screen {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Metal Mania';
+    padding: 3px;
+    width: 70%;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 2px dashed #fff;
+}
+
+.seats {
+    display: grid;
+    grid-template-columns: 20px repeat(12, 1fr) 20px;
+    gap: 5px;
+}
+
+.seat {
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.seat.selected,
+.seat.wheelchair.selected {
+    background-color: rgb(79, 79, 79);
+}
+
+.seat.occupied {
+    background-color: rgb(79, 79, 79);
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+    cursor: not-allowed;
+}
+
+.seat.wheelchair {
+    background-image: url('./Фото/іконка інвалідна.png');
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.seats div.occupied::after {
+    content: '✖';
+    color: #fff;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: 'Metal Mania';
+    src: url('./Фото/MetalMania-Regular.ttf') format('ttf');
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    border-top: 2px dashed #fff;
+    padding: 10px 0;
+}
+
+.seats > div:last-child {
+    border-color: red;
+}
+
+.book-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-family: 'Metal Mania';
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.book-button:hover {
+    background-color: darkred;
+}
+
+.good {
+    color: rgb(70, 71, 70);
+    font-family: 'Pacifico-Regular';
+    src: url('./Фото/Pacifico-Regular.ttf') format('ttf');
+    font-weight: bold;
+}
+
+.superlux {
+    color: red;
+    font-family: 'Pacifico-Regular';
+    src: url('./Фото/Pacifico-Regular.ttf') format('ttf');
+    font-weight: bold;
+}
