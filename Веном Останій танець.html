@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Веном: Останній танець</title>
+    <link rel="stylesheet" href="./assent/css/films_style.css"> <!-- Підключіть свій CSS файл -->
+</head>
+<body>
+    <div class="header">
+        <h1>Веном: Останній танець</h1>
+    </div>
+    <div class="container">
+        <div class="movie-poster">
+            <img src="./assent/images/Веном Останній танець.jpg" alt="Веном: Останній танець">
+            <button class="book-ticket"><a href="#" style="text-decoration: none; color: white;">Забронювати квиток</a></button>
+        </div>
+        <div class="movie-details">
+            <p><strong>Вік:</strong> 16+</p>
+            <p><strong>Оригінальна назва:</strong> Venom: Let There Be Carnage</p>
+            <p><strong>Режисер:</strong> Енді Серкіс</p>
+            <p><strong>Прем'єра:</strong> 1 жовтня 2021</p>
+            <p><strong>Рейтинг глядачів:</strong> 6.7</p>
+            <p><strong>Мова:</strong> англійська</p>
+            <p><strong>Жанр:</strong> Бойовик, Фантастика</p>
+            <p><strong>Тривалість:</strong> 1:37</p>
+            <p><strong>Виробництво:</strong> США</p>
+            <p><strong>Студія:</strong> Columbia Pictures, Marvel Entertainment, Tencent Pictures</p>
+            <p><strong>У головних ролях:</strong> Том Гарді, Вудді Гаррельсон, Мішель Вільямс, Наомі Гарріс</p>
+            <p>У цьому фільмі Веном, паразитарний симбіонт, знову зіткнеться зі своїм ворогом, Карнажем, 
+            що приведе до епічних сутичок і непередбачуваних наслідків для світу.</p>
+            <button class="watch-trailer" onclick="showTrailer()">Дивитись трейлер</button
+            <button class="watch-trailer" onclick="showTrailer()">Дивитись трейлер</button>
+            <div class="trailer" id="trailer">
+                <video controls>
+                    <source src="./Відео/Шрек_5_трейлер.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+    <footer class="footer-1">
+        <p>© 2024 Веном: Останній танець. Всі права захищено.</p>
+    </footer>
+    <script>
+        function showTrailer() {
+            document.getElementById('trailer').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
