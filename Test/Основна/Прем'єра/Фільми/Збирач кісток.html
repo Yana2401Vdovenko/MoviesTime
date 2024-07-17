@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Збирач кісток</title>
+    <link rel="stylesheet" href="./style_bones.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Збирач кісток</h1>
+    </div>
+    <div class="container">
+        <div class="movie-poster">
+            <img src="./Фото/Збирач кісток.jfif" alt="Збирач кісток">
+            <button class="book-ticket"><a href="./Сеанси/shedule.html" style="text-decoration: none; color: white;">Забронювати квиток</a></button>
+        </div>
+        <div class="movie-details">
+            <p><strong>Вік:</strong> 16+</p>
+            <p><strong>Оригінальна назва:</strong> Boneyard</p>
+            <p><strong>Режисер:</strong> Азіф Акбар</p>
+            <p><strong>Прем'єра:</strong> 5 липня 2024</p>
+            <p><strong>Рейтинг глядачів:</strong> 7.3</p>
+            <p><strong>Мова:</strong> українська мова</p>
+            <p><strong>Жанр:</strong> Бойовик, Трилер</p>
+            <p><strong>Тривалість:</strong> 1:36</p>
+            <p><strong>Виробництво:</strong> США</p>
+            <p><strong>Студія:</strong> Avail Entertainment, Busy Day Productions, Dream Team Productions</p>
+            <p><strong>У головних ролях:</strong> Мел Ґібсон, Нора Зеетнер, Кертіс Джексон</p>
+            <p>Одинадцять жінок було жорстоко вбито. ФБР відправляє своїх найкращих агентів на пошуки злочинця.
+                Поліція також приділяє справі першочергову увагу, але лише детективу Ортезі вдається вийти на слід убивці.
+                Після зникнення його племінниці справа набуває ще більш небезпечного розвитку, і кожен, хто бере участь у розслідуванні, стає підозрюваним.</p>
+            <button class="watch-trailer" onclick="showTrailer()">Дивитись трейлер</button>
+            <div class="trailer" id="trailer">
+                <video controls>
+                    <source src="./Відео/Boneyard (2024) Official Trailer - Brian Van Holt, Curtis '50 Cent' Jackson, Mel Gibson (1).mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+    <footer class="footer-1">
+        <p>© 2024 Збирач кісток. Всі права захищено.</p>
+    </footer>
+    <script>
+        function showTrailer() {
+            document.getElementById('trailer').style.display = 'block';
+        }
+    </script>
+</body>
+</html>

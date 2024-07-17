@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Розклад сеансів</title>
+    <link rel="stylesheet" href="./style_shedule.css">
+    <script src="./script_shedule.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Розклад сеансів</h1>
+    </header>
+
+    <main>
+        <div class="day-selection">
+            <button id="today-button" onclick="showSchedule('today')"><span>Сьогодні</span></button>
+            <button id="tomorrow-button" onclick="showSchedule('tomorrow')"><span>Завтра</span></button>
+        </div>
+
+        <div class="movie-schedule" id="schedule-today">
+
+            <div class="movie-grid">
+                <div class="movie">
+                    <img src="./Фото/Друзі назавжди.jfif" alt="Друзі назавжди">
+                    <div class="movie-info">
+                        <div class="movie-title">Друзі назавжди</div>
+                        <div class="movie-times">
+                            <a href="./Квитки/Друзі назавжди.html">10:00</a>
+                            <a href="./Квитки/Друзі назавжди.html">12:00</a>
+                            <a href="./Квитки/Друзі назавжди.html">14:00</a>
+                            <a href="./Квитки/Друзі назавжди.html">16:00</a>
+                            <a href="./Квитки/Друзі назавжди.html">18:00</a>
+                            <a href="./Квитки/Друзі назавжди.html">20:00</a>
+                            <a href="./Квитки/Друзі назавжди.html">22:00</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie">
+                    <img src="./Фото/Думками навиворіт 2.jpeg" alt="Думками навиворіт 2">
+                    <div class="movie-info">
+                        <div class="movie-title">Думками навиворіт 2</div>
+                        <div class="movie-times">
+                            <a href="./Квитки/Думками навиворіт 2.html">10:30</a>
+                            <a href="./Квитки/Думками навиворіт 2.html">13:30</a>
+                            <a href="./Квитки/Думками навиворіт 2.html">16:30</a>
+                            <a href="./Квитки/Думками навиворіт 2.html">19:30</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie">
+                    <img src="./Фото/Забери мене на місяць.jpg" alt="Забери мене на місяць">
+                    <div class="movie-info">
+                        <div class="movie-title">Забери мене на місяць</div>
+                        <div class="movie-times">
+                            <a href="./Квитки/Забери мене на місяць.html">14:30</a>
+                            <a href="./Квитки/Забери мене на місяць.html">17:30</a>
+                            <a href="./Квитки/Забери мене на місяць.html">20:30</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie">
+                    <img src="./Фото/Збирач кісток.jfif" alt="Збирач кісток">
+                    <div class="movie-info">
+                        <div class="movie-title">Збирач кісток</div>
+                        <div class="movie-times">
+                            <a href="./Квитки/Збирач кісток.html">10:00</a>
+                            <a href="./Квитки/Збирач кісток.html">12:00</a>
+                            <a href="./Квитки/Збирач кісток.html">14:00</a>
+                            <a href="./Квитки/Збирач кісток.html">20:00</a>
+                            <a href="./Квитки/Збирач кісток.html">22:00</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie">
+                    <img src="./Фото/Зрадниця.jpg" alt="Зрадниця">
+                    <div class="movie-info">
+                        <div class="movie-title">Зрадниця</div>
+                        <div class="movie-times">
+                            <a href="./Квитки/Зрадниця.html">14:30</a>
+                            <a href="./Квитки/Зрадниця.html">17:30</a>
+                            <a href="./Квитки/Зрадниця.html">20:30</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie">
+                    <img src="./Фото/Кріпачка.jfif" alt="Кріпачка">
+                    <div class="movie-info">
+                        <div class="movie-title">Кріпачка</div>
+                        <div class="movie-times">
+                            <a href="./Квитки/Кріпачка.html">10:00</a>
+                            <a href="./Квитки/Кріпачка.html">12:00</a>
+                            <a href="./Квитки/Кріпачка.html">14:00</a>
+                            <a href="./Квитки/Кріпачка.html">16:00</a>
+                            <a href="./Квитки/Кріпачка.html">22:00</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie">
+                    <img src="./Фото/Ґарфілд у кіно.jfif" alt="Гарфілд у кіно">
+                    <div class="movie-info">
+                        <div class="movie-title">Гарфілд у кіно</div>
+                        <div class="movie-times">
+                            <a href="./Квитки/Ґарфілд у кіно.html">16:00</a>
+                            <a href="./Квитки/Ґарфілд у кіно.html">18:00</a>
+                            <a href="./Квитки/Ґарфілд у кіно.html">20:00</a>
+                            <a href="./Квитки/Ґарфілд у кіно.html">22:00</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie">
+                    <img src="./Фото/МаХХХін.jpg" alt="МаХХХін">
+                    <div class="movie-info">
+                        <div class="movie-title">МаХХХін</div>
+                        <div class="movie-times">
+                            <a href="./Квитки/МаХХХін.html">14:30</a>
+                            <a href="./Квитки/МаХХХін.html">17:30</a>
+                            <a href="./Квитки/МаХХХін.html">20:30</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie">
+                    <img src="./Фото/Нікчемний я 4.jfif" alt="Нікчемний я 4">
+                    <div class="movie-info">
+                        <div class="movie-title">Нікчемний я 4</div>
+                        <div class="movie-times">
+                            <a href="./Квитки/Нікчемний я 4.html">10:30</a>
+                            <a href="./Квитки/Нікчемний я 4.html">13:30</a>
+                            <a href="./Квитки/Нікчемний я 4.html">16:30</a>
+                            <a href="./Квитки/Нікчемний я 4.html">18:00</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie">
+                    <img src="./Фото/Пекельний серфінг.jpg" alt="Пекельний серфінг">
+                    <div class="movie-info">
+                        <div class="movie-title">Пекельний серфінг</div>
+                        <div class="movie-times">
+                            <a href="./Квитки/Пекельний серфінг.html">14:30</a>
+                            <a href="./Квитки/Пекельний серфінг.html">17:30</a>
+                            <a href="./Квитки/Пекельний серфінг.html">20:30</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie">
+                    <img src="./Фото/Погані хлопці все або нічого.jfif" alt="Погані хлопці: Все або нічого">
+                    <div class="movie-info">
+                        <div class="movie-title">Погані хлопці: Все або нічого</div>
+                        <div class="movie-times">
+                            <a href="./Квитки/Погані хлопці.html">14:30</a>
+                            <a href="./Квитки/Погані хлопці.html">17:30</a>
+                            <a href="./Квитки/Погані хлопці.html">20:30</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie">
+                    <img src="./Фото/Смерчі.jfif" alt="Смерчі">
+                    <div class="movie-info">
+                        <div class="movie-title">Смерчі</div>
+                        <div class="movie-times">
+                            <a href="./Квитки/Смерчі.html">15:30</a>
+                            <a href="./Квитки/Смерчі.html">17:30</a>
+                            <a href="./Квитки/Смерчі.html">20:30</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie">
+                    <img src="./Фото/Дедпул і Росомаха.jpg" alt="Дедпул і росомаха">
+                    <div class="movie-info">
+                        <div class="movie-title">Дедпул і росомаха</div>
+                        <div class="movie-times">
+                            <a href="./Квитки/Дедпул і Росомаха.html">15:30</a>
+                            <a href="./Квитки/Дедпул і Росомаха.html">17:30</a>
+                            <a href="./Квитки/Дедпул і Росомаха.html">20:30</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie">
+                    <img src="./Фото/Судна нічка.jpeg" alt="Судна нічка">
+                    <div class="movie-info">
+                        <div class="movie-title">Судна нічка</div>
+                        <div class="movie-times">
+                            <a href="./Квитки/Судна нічка.html">14:30</a>
+                            <a href="./Квитки/Судна нічка.html">18:00</a>
+                            <a href="./Квитки/Судна нічка.html">20:30</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie">
+                    <img src="./Фото/Тихе місце день перший.jfif" alt="Тихе місце: День перший">
+                    <div class="movie-info">
+                        <div class="movie-title">Тихе місце: День перший</div>
+                        <div class="movie-times">
+                            <a href="./Квитки/Тихе місце.html">12:30</a>
+                            <a href="./Квитки/Тихе місце.html">16:30</a>
+                            <a href="./Квитки/Тихе місце.html">20:30</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+
+
+
+        <div class="movie-schedule" id="schedule-tomorrow" style="display:none;">
+
+
+            <div class="movie-grid">
+                <div class="movie">
+                    <img src="./Фото/Друзі назавжди.jfif" alt="Друзі назавжди">
+                    <div class="movie-info">
+                        <div class="movie-title">Друзі назавжди</div>
+                        <div class="movie-times">
+                            <a href="./Квитки/Друзі назавжди.html">14:30</a>
+                            <a href="./Квитки/Друзі назавжди.html">17:30</a>
+                            <a href="./Квитки/Друзі назавжди.html">20:30</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie">
+                    <img src="./Фото/Думками навиворіт 2.jpeg" alt="Думками навиворіт 2">
+                    <div class="movie-info">
+                        <div class="movie-title">Думками навиворіт 2</div>
+                        <div class="movie-times">
+                            <a href="./Квитки/Думками навиворіт 2.html">10:30</a>
+                            <a href="./Квитки/Думками навиворіт 2.html">13:30</a>
+                            <a href="./Квитки/Думками навиворіт 2.html">16:30</a>
+                            <a href="./Квитки/Думками навиворіт 2.html">19:30</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie">
+                    <img src="./Фото/Забери мене на місяць.jpg" alt="Забери мене на місяць">
+                    <div class="movie-info">
+                        <div class="movie-title">Забери мене на місяць</div>
+                        <div class="movie-times">
+                            <a href="./Квитки/Забери мене на місяць.html">14:30</a>
+                            <a href="./Квитки/Забери мене на місяць.html">17:30</a>
+                            <a href="./Квитки/Забери мене на місяць.html">20:30</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie">
+                    <img src="./Фото/Збирач кісток.jfif" alt="Збирач кісток">
+                    <div class="movie-info">
+                        <div class="movie-title">Збирач кісток</div>
+                        <div class="movie-times">
+                            <a href="./Квитки/Збирач кісток.html">10:00</a>
+                            <a href="./Квитки/Збирач кісток.html">12:00</a>
+                            <a href="./Квитки/Збирач кісток.html">14:00</a>
+                            <a href="./Квитки/Збирач кісток.html">16:00</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie">
+                    <img src="./Фото/Зрадниця.jpg" alt="Зрадниця">
+                    <div class="movie-info">
+                        <div class="movie-title">Зрадниця</div>
+                        <div class="movie-times">
+                            <a href="./Квитки/Зрадниця.html">14:30</a>
+                            <a href="./Квитки/Зрадниця.html">17:30</a>
+                            <a href="./Квитки/Зрадниця.html">20:30</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie">
+                    <img src="./Фото/Кріпачка.jfif" alt="Кріпачка">
+                    <div class="movie-info">
+                        <div class="movie-title">Кріпачка</div>
+                        <div class="movie-times">
+                            <a href="./Квитки/Кріпачка.html">10:30</a>
+                            <a href="./Квитки/Кріпачка.html">13:30</a>
+                            <a href="./Квитки/Кріпачка.html">16:30</a>
+                            <a href="./Квитки/Кріпачка.html">19:30</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie">
+                    <img src="./Фото/Ґарфілд у кіно.jfif" alt="Гарфілд у кіно">
+                    <div class="movie-info">
+                        <div class="movie-title">Гарфілд у кіно</div>
+                        <div class="movie-times">
+                            <a href="./Квитки/Ґарфілд у кіно.html">10:00</a>
+                            <a href="./Квитки/Ґарфілд у кіно.html">12:00</a>
+                            <а href="">20:00</а>
+                            <а href="">22:00</а>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie">
+                    <img src="./Фото/МаХХХін.jpg" alt="МаХХХін">
+                    <div class="movie-info">
+                        <div class="movie-title">МаХХХін</div>
+                        <div class="movie-times">
+                            <a href="./Квитки/МаХХХін.html">14:30</a>
+                            <a href="./Квитки/МаХХХін.html">17:30</a>
+                            <a href="./Квитки/МаХХХін.html">20:30</а>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie">
+                    <img src="./Фото/Нікчемний я 4.jfif" alt="Нікчемний я 4">
+                    <div class="movie-info">
+                        <div class="movie-title">Нікчемний я 4</div>
+                        <div class="movie-times">
+                            <a href="./Квитки/Нікчемний я 4.html">10:30</а>
+                            <а href="">13:30</а>
+                            <а href="">16:30</а>
+                            <а href="">19:30</а>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie">
+                    <img src="./Фото/Пекельний серфінг.jpg" alt="Пекельний серфінг">
+                    <div class="movie-info">
+                        <div class="movie-title">Пекельний серфінг</div>
+                        <div class="movie-times">
+                            <a href="./Квитки/Пекельний серфінг.html">14:30</а>
+                            <а href="">17:30</а>
+                            <а href="">20:30</а>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie">
+                    <img src="./Фото/Погані хлопці все або нічого.jfif" alt="Погані хлопці: Все або нічого">
+                    <div class="movie-info">
+                        <div class="movie-title">Погані хлопці: Все або нічого</div>
+                        <div class="movie-times">
+                            <a href="./Квитки/Погані хлопці.html">14:30</а>
+                            <а href="">17:30</а>
+                            <а href="">20:30</а>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie">
+                    <img src="./Фото/Смерчі.jfif" alt="Смерчі">
+                    <div class="movie-info">
+                        <div class="movie-title">Смерчі</div>
+                        <div class="movie-times">
+                            <a href="./Квитки/Смерчі.html">14:30</а>
+                            <а href="">17:30</а>
+                            <а href="">20:30</а>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie">
+                    <img src="./Фото/Дедпул і Росомаха.jpg" alt="Дедпул і росомаха">
+                    <div class="movie-info">
+                        <div class="movie-title">Дедпул і росомаха</div>
+                        <div class="movie-times">
+                            <a href="./Квитки/Дедпул і Росомаха.html">14:30</а>
+                            <а href="">17:30</а>
+                            <а href="">20:30</а>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie">
+                    <img src="./Фото/Судна нічка.jpeg" alt="Судна нічка">
+                    <div class="movie-info">
+                        <div class="movie-title">Судна нічка</div>
+                        <div class="movie-times">
+                            <a href="./Квитки/Судна нічка.html">14:30</а>
+                            <а href="">17:30</а>
+                            <а href="./">20:30</а>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie">
+                    <img src="./Фото/Тихе місце день перший.jfif" alt="Тихе місце: День перший">
+                    <div class="movie-info">
+                        <div class="movie-title">Тихе місце: День перший</div>
+                        <div class="movie-times">
+                            <a href="./Квитки/Тихе місце.html">14:30</а>
+                            <а href="">17:30</а>
+                            <а href="">20:30</а>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Розклад сеансів. Всі права захищено.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Думками на виворіт 2</title>
+    <link rel="stylesheet" href="./style_opinion.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Думками на виворіт 2</h1>
+    </div>
+    <div class="container">
+        <div class="movie-poster">
+            <img src="./Фото/Думками навиворіт 2.jpeg" alt="Думками на виворіт 2">
+            <button class="book-ticket"><a href="./Сеанси/shedule.html" style="text-decoration: none; color: white;">Забронювати квиток</a></button>
+        </div>
+        <div class="movie-details">
+            <p><strong>Вік:</strong> 0+</p>
+            <p><strong>Оригінальна назва:</strong> Inside Out 2</p>
+            <p><strong>Режисер:</strong> Келсі Манн</p>
+            <p><strong>Прем'єра:</strong> 13 червня 2024</p>
+            <p><strong>Рейтинг глядачів:</strong> 7.9</p>
+            <p><strong>Мова:</strong> українська мова</p>
+            <p><strong>Жанр:</strong> Пригоди, Анімація, Сімейний, Комедія</p>
+            <p><strong>Тривалість:</strong> 1:36</p>
+            <p><strong>Виробництво:</strong> США</p>
+            <p><strong>Студія:</strong> Walt Disney Pictures, Pixar Animation Studios</p>
+            <p><strong>У головних ролях:</strong> Емі Полер, Філліс Сміт, Льюїс Блек, Тоні Гейл, Ліза Лапіра та інші</p>
+            <p>Продовження мультфільму від Disney та Pixar повертає глядачів у свідомість новоспеченої підлітки Райлі.
+                 Головна контора у голові дівчини зіштовхується з раптовим виселенням, щоб звільнити місце для чогось вкрай несподіваного: нових Емоцій! 
+                 Радість, Печаль, Гнів, Страх та Відраза вже давно успішно працюють разом. Тому вони не знають, що відчувати, коли зʼявляється Тривожність. 
+                 І, схоже, вона прийшла не сама.</p>
+            <button class="watch-trailer" onclick="showTrailer()">Дивитись трейлер</button>
+            <div class="trailer" id="trailer">
+                <video controls>
+                    <source src="./Відео/_ДУМКАМИ НАВИВОРІТ 2 - Офіційний український тизер-трейлер.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+    <footer class="footer-1">
+        <p>© 2024 Думками на виворіт 2. Всі права захищено.</p>
+    </footer>
+    <script>
+        function showTrailer() {
+            document.getElementById('trailer').style.display = 'block';
+        }
+    </script>
+</body>
+</html>

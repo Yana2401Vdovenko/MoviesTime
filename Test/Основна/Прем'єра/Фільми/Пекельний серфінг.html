@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пекельний серфінг</title>
+    <link rel="stylesheet" href="./style_Пекельний серфінг.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Пекельний серфінг</h1>
+    </div>
+    <div class="container">
+        <div class="movie-poster">
+            <img src="./Фото/Пекельний серфінг.jpg" alt="Пекельний серфінг">
+            <button class="book-ticket"><a href="./Сеанси/shedule.html" style="text-decoration: none; color: white;">Забронювати квиток</a></button>
+        </div>
+        <div class="movie-details">
+            <p><strong>Вік:</strong> 16+</p>
+            <p><strong>Оригінальна назва:</strong> Maraé</p>
+            <p><strong>Режисер:</strong> Жак Клюгер</p>
+            <p><strong>Прем'єра:</strong> 11 липня 2024</p>
+            <p><strong>Рейтинг глядачів:</strong> 3.5</p>
+            <p><strong>Мова:</strong> українська мова</p>
+            <p><strong>Жанр:</strong> Жахи, Трилер, Містика</p>
+            <p><strong>Тривалість:</strong> 1:25</p>
+            <p><strong>Виробництво:</strong> Франція</p>
+            <p><strong>У головних ролях:</strong> Мерилін Ліма, Орельєн Рекуан, Марі Забуковек, Адель Галлой</p>
+            <p>Це мала бути незабутня вечірка, але боги бажають помсти!
+                Найкращі серфінгістки вирушають шукати хвилі на таємничому острові, який зник з усіх карт. Але деякі місця мають лишатись таємними назавжди…Гра на виживання починається!</p>
+            <button class="watch-trailer" onclick="showTrailer()">Дивитись трейлер</button>
+            <div class="trailer" id="trailer">
+                <video controls>
+                    <source src="./Відео/'ПЕКЕЛЬНИЙ СЕРФІНГ' Офіційний трейлер. У кінотеатрах з 11 ЛИПНЯ 2024.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+    <footer class="footer-1">
+        <p>© 2024 Пекельний серфінг. Всі права захищено.</p>
+    </footer>
+    <script>
+        function showTrailer() {
+            document.getElementById('trailer').style.display = 'block';
+        }
+    </script>
+</body>
+</html>

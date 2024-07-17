@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>МаХХХін</title>
+    <link rel="stylesheet" href="./style_МаХХХін.css">
+</head>
+<body>
+    <div class="header">
+        <h1>МаХХХін</h1>
+    </div>
+    <div class="container">
+        <div class="movie-poster">
+            <img src="./Фото/МаХХХін.jpg" alt="МаХХХін">
+            <button class="book-ticket"><a href="./Сеанси/shedule.html" style="text-decoration: none; color: white;">Забронювати квиток</a></button>
+        </div>
+        <div class="movie-details">
+            <p><strong>Вік:</strong> 18+</p>
+            <p><strong>Оригінальна назва:</strong> MAXXXINE</p>
+            <p><strong>Режисер:</strong> Тай Уест</p>
+            <p><strong>Прем'єра:</strong> 4 липня 2024</p>
+            <p><strong>Рейтинг глядачів:</strong> 7.5</p>
+            <p><strong>Мова:</strong> українська мова</p>
+            <p><strong>Жанр:</strong> Трилер, Детектив</p>
+            <p><strong>Тривалість:</strong> 1:43</p>
+            <p><strong>Виробництво:</strong> США, Нова Зеландія, Канада</p>
+            <p><strong>Студія:</strong> А24, ко-дистрибуція: Universal/Focus Features</p>
+            <p><strong>У головних ролях:</strong> Мія Гот, Елізабет Дебікі, Холзі, Лілі Коллінз, Мішель Монаган, Кевін Бейкон, Джанкарло Еспозіто, Мозес Самні</p>
+            <p>Максін Мінкс (Мія Гот) - зірка фільмів для дорослих і починаюча акторка великого кіно, нарешті близька до успіху в Голлівуді. Проте, загадковий вбивця на прізвисько “Нічний ловець” переслідує молодих акторок по всьому Лос-Анджелесу та залишає кривавий слід, чим загрожує викрити зловісне минуле Максін. Хто ж її переслідує і як далеко вона готова піти, щоб назавжди поховати свої таємниці та врятувати кар'єру?</p>
+            <button class="watch-trailer" onclick="showTrailer()">Дивитись трейлер</button>
+            <div class="trailer" id="trailer">
+                <video controls>
+                    <source src="./Відео/MAХХХІН - Офіційний трейлер - З 4 липня у кіно.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+    <footer class="footer-1">
+        <p>© 2024 МаХХХін. Всі права захищено.</p>
+    </footer>
+    <script>
+        function showTrailer() {
+            document.getElementById('trailer').style.display = 'block';
+        }
+    </script>
+</body>
+</html>

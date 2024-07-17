@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Погані хлопці: Все або нічого</title>
+    <link rel="stylesheet" href="./style_Погані хлопці.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Погані хлопці: Все або нічого</h1>
+    </div>
+    <div class="container">
+        <div class="movie-poster">
+            <img src="./Фото/Погані хлопці все або нічого.jfif" alt="Погані хлопці: Все або нічого">
+            <button class="book-ticket"><a href="./Сеанси/shedule.html" style="text-decoration: none; color: white;">Забронювати квиток</a></button>
+        </div>
+        <div class="movie-details">
+            <p><strong>Вік:</strong> 16+</p>
+            <p><strong>Оригінальна назва:</strong> Bad Boys: Ride or Die</p>
+            <p><strong>Режисер:</strong> Аділь Ель Арбі, Білал Фалла</p>
+            <p><strong>Прем'єра:</strong> 6 червня 2024</p>
+            <p><strong>Рейтинг глядачів:</strong> 7</p>
+            <p><strong>Мова:</strong> українська мова</p>
+            <p><strong>Жанр:</strong> Комедія, Бойовик, Екшн</p>
+            <p><strong>Тривалість:</strong> 1:55</p>
+            <p><strong>Виробництво:</strong> США</p>
+            <p><strong>Студія:</strong> Sony</p>
+            <p><strong>У головних ролях:</strong> Вілл Сміт, Мартін Лоуренс, Ванесса Гадженс</p>
+            <p>Детективи з Майамі Майк Лоурі (Вілл Сміт) та Маркус Бернетт (Мартін Лоуренс) знову беруться до справ. Навряд чи знайдеться в цьому світі хтось, хто міг би завадити Лоурі та Бернетту довести діло до кінця.
+                <br> </br>
+                Комедійний бойовик «Погані хлопці: Все або нічого» має стати продовженням трьох попередніх частин, які виходили на екрани у 1995, 2003 та 2020 роках. </p>
+            <button class="watch-trailer" onclick="showTrailer()">Дивитись трейлер</button>
+            <div class="trailer" id="trailer">
+                <video controls>
+                    <source src="./Відео/Погані хлопці- Все або нічого. Офіційний трейлер.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+    <footer class="footer-1">
+        <p>© 2024 Погані хлопці: Все або нічого. Всі права захищено.</p>
+    </footer>
+    <script>
+        function showTrailer() {
+            document.getElementById('trailer').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
